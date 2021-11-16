@@ -3,7 +3,7 @@
       empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
 
     die( 'Désolé, le message n\' est pas envoyé');
-    return false;
+    header('Location: index.html');
   } 
   $name = strip_tags(htmlspecialchars($_POST['nom']));
   $email = strip_tags(htmlspecialchars($_POST['email']));
@@ -20,5 +20,5 @@
   $headers .= "Reply-To : $email";
   
   mail($to, $email_subject, $email_body, $headers);
-  return true;
+  header('Location: index.html');
 ?>
