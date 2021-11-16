@@ -5,16 +5,16 @@
     die( 'Désolé, le message n\' est pas envoyé');
     return false;
   } 
-  $name = strip_tags(htmlspecialchars($_POST['name']));
+  $name = strip_tags(htmlspecialchars($_POST['nom']));
   $email = strip_tags(htmlspecialchars($_POST['email']));
   $message = strip_tags(htmlspecialchars($_POST['message']));
-  $subject = strip_tags(htmlspecialchars($_POST['subject']));
+  $objet = strip_tags(htmlspecialchars($_POST['objet']));
 
-  $to = 'kingservices27@gmail.com';
+  $to = 'geedookanda06@@gmail.com';
 
-  $email_subject = "King services formulaire de contacte : $name";
-  $email_body = "Vous avez réçu un nouveau message depuis le formuaire. \n\n"
-            ."Voici les détails : \n\n Name : $name \n\n Email : $email \n\n sujet : $subject \n\n Message : $message";
+  $email_subject = "site officiel d'Optmus corp: $name";
+  $email_body = "Vous avez réçu un nouveau message depuis le site. \n\n"
+            ."Voici les détails : \n\n Name : $name \n\n Email : $email \n\n sujet : $objet \n\n Message : $message";
 
   $headers = "From : noreply@gmail.com\n";
   $headers .= "Reply-To : $email";
