@@ -1,5 +1,1 @@
-- 👋 Salut, je suis @Geedoo-Kanda
-- 👀 Je suis intéressé par le developement web
-- 🌱 J'apprends actuellement du LARAVEL et du VUE.JS
-- 💞️ Je cherche à collaborer sur la réalisation des applications web et/ou site web
-- 📫 Comment me joindre sur mon adresse mail geedookanda06@gmail.com et mon twitter @geedoo_k
+OPTIMUS CORP Une plateforme de jeunes developpeurs web, mobile, desktop et des designers qui procèdent à la transformation numérique d'une tâche, d'un processus afin d’améliorer les résultats en terme de rapidité, de sécurité, de qualité ou encore de gain financier dans une entreprise.
