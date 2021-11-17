@@ -1,0 +1,5 @@
+- 👋 Salut, je suis @Geedoo-Kanda
+- 👀 Je suis intéressé par le developement web
+- 🌱 J'apprends actuellement du LARAVEL et du VUE.JS
+- 💞️ Je cherche à collaborer sur la réalisation des applications web et/ou site web
+- 📫 Comment me joindre sur mon adresse mail geedookanda06@gmail.com et mon twitter @geedoo_k
