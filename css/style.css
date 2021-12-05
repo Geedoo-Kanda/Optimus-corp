@@ -4,7 +4,8 @@
 --barnière et image de fond
 */
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
     position: fixed;
     margin-top: -10px;
     width: 90%;
@@ -139,7 +140,7 @@ header .active{
         font-size: 17px
     }
 }
-@media(max-width : 768px){
+@media(max-width : 767px){
     #liens{
         display: none;
     }
